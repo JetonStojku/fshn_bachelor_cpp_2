@@ -3,9 +3,9 @@
 int main()
 {
     int grades[3][3] = {
-        {80, 90, 85},
-        {70, 85, 90},
-        {75, 95, 80}};
+        {8, 10, 8},
+        {7, 8, 9},
+        {7, 10, 8}};
 
     // Find the best student
     int best_student = 0;
@@ -24,6 +24,7 @@ int main()
             best_avg = avg;
         }
     }
+    printf("Best student: %d: average: %.2f\n", best_student, best_avg);
 
     // Find the subject with the highest average
     int best_subject = 0;
@@ -43,8 +44,7 @@ int main()
         }
     }
 
-    printf("Best student: %d\n", best_student);
-    printf("Subject with the highest average: %d\n", best_subject);
+    printf("Subject with the highest average: %d: average: %.2f\n", best_subject, best_avg);
 
     printf("\nEnter any number to exit: ");
     scanf("%d");
