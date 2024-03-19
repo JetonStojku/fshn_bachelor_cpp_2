@@ -3,17 +3,17 @@
 
 int isPeak(int matrix[N][N], int row, int col)
 {
-    if (matrix[row][col] > matrix[row - 1][col] &&
-        matrix[row][col] > matrix[row + 1][col] &&
-        matrix[row][col] > matrix[row][col - 1] &&
-        matrix[row][col] > matrix[row][col + 1])
+    for (int i = row - 1; i <= row + 1; i++)
     {
-        return 1;
+        for (int j = col - 1; j <= col + 1; j++)
+        {
+            if (matrix[row][col] <= matrix[i][j] && i != row && j != col)
+            {
+                return 0;
+            }
+        }
     }
-    else
-    {
-        return 0;
-    }
+    return 1;
 }
 
 int countPeaks(int matrix[N][N], int m, int n)
