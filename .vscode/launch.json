@@ -34,8 +34,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/jeton/OneDrive/Documents/FSHN/Lecture/cpp/fshn_bachelor_cpp_2/seminar_03",
-      "program": "c:/Users/jeton/OneDrive/Documents/FSHN/Lecture/cpp/fshn_bachelor_cpp_2/seminar_03/build/Debug/outDebug",
+      "cwd": "c:/Users/jeton/OneDrive/Documents/FSHN/Lecture/cpp/fshn_bachelor_cpp_2/seminar_06",
+      "program": "c:/Users/jeton/OneDrive/Documents/FSHN/Lecture/cpp/fshn_bachelor_cpp_2/seminar_06/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
